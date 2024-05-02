@@ -1,0 +1,212 @@
+body{
+	background-image:url("../imagenes/fondo3.jpg");
+	color:#0A0200;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 40px;
+}
+p{
+	text-align:center;
+	font-size: 20px;
+}
+hr{
+	border: 2px solid #E9F7EF;
+	/* asi es como se pueden hacer notas, border-radius es para el 
+	terminado de las orillas de la linea. El radio se expresa en px*/
+	border-radius: 3px;
+}
+table,tr,td{
+	border: 2px solid #633974;
+	border-spacing:0px;
+	/*color de fondo de la tabla*/
+	background-color:#E8CECE  ;
+	text-align: center;
+	font-size: 20px;
+	
+}
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+@font-face{
+	font-family:mifuente2;
+	src:url("../fonts/AdobeMingStd-Light")
+}
+@font-face{
+	font-family:mifuente3;
+	src:url("../fonts/AdobeHebrew-Bold")
+}
+@font-face{
+	font-family:mifuente4;
+	src:url("../fonts/AdobeHebrew-Regular")
+}
+.pie{
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+.encabezado {
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	font-family:mifuente4;
+}
+.img-marquee{
+	height:400px; 
+	width:600px;
+}
+.img-productos{
+	height:200px; 
+	width:200px;
+border-radius: 50%;
+}
+*{
+	margin: 0px;	
+}
+div#top{
+	padding:30px;
+	width:100%;
+	height:50px;
+	background-color:#F2D7D5;
+	font-family:mifuente3;
+	/*background-image:linear-gradient( #E9F7EF,#FDEDEC);*/
+}
+div#piediv{
+	width:100%;
+	height:100px;
+	background-color:#F2D7D5;
+	/*background-image:linear-gradient( #E9F7EF,#FDEDEC);*/
+}
+div#principal{
+   width:100%;
+   /* background-color:#F2D7D5; es para poner un 
+   color solido en el fondo de la pag*/
+   background-image:url("../imagenes/fondo3.jpg");
+}
+.caja{
+	height:300px;
+	width:250px;
+	background:#eee; /* color de fondo al seleccionar*/
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center; 
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+	font-family:mifuente3;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+	font-family:mifuente2;
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/* hace que el padding y el border pasen a formar 
+parte del calculo de la caja y no de la suma */
+	box-sizing:border-box;
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+	/* hace que el navegador oculte todos los comentarios/cotenidos
+	que salen del div*/
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	/*hace que el elemento se coloque respecto a su contenedor
+	posicionado mas cerca*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;
+}
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content: space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows > a > i{
+	color:white;
+}
+.img-controller{
+	height:50px;
+	width:50px;
+}
+.caja1{
+	height:200px;
+	width:600px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center; 
+	display:inline-block;
+}
+.caja2{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color: black;
+	font-weight:bold;
+}
+.caja-producto1{
+	height:100 px;
+	width:530px;
+	background:#F2D7D5;
+	border: 1px solid #eee;
+	margin: 5px;
+	color: black;
+}
+.text-adicional-productos{
+	padding-top:5px;
+	font-size:17px;
+	font-weight:bold;
+	font-family:mifuente2;
+}
+
+
+
